@@ -12,9 +12,43 @@
     </head>
     <body>
         <div class="container">
+            <!-- ============== Header =========== -->
             <header class="header">
-                header part
+                <img src="img/logo.png" alt="wegogo logo" class="logo">
+
+                <form action="#" class="search">
+                    <input type="text" class="search__input" placeholder="Search hotels">
+                    <button class="search__button">
+                        <svg class="search__icon">
+                            <!-- include svg file -->
+                            <use xlink:href="/img/sprite.svg#icon-magnifying-glass"></use>
+                        </svg>
+                    </button>
+                </form>
+
+                <nav class="user-nav">
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <!-- include svg file -->
+                            <use xlink:href="/img/sprite.svg#icon-bookmark"></use>
+                        </svg>
+                        <span class="user-nav__notification">7</span>
+                    </div>
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <!-- include svg file -->
+                            <use xlink:href="/img/sprite.svg#icon-chat"></use>
+                        </svg>
+                        <span class="user-nav__notification">5</span>
+                    </div>
+                    <div class="user-nav__user">
+                        <img src="/img/user.jpg" alt="user photo" class="user-nav__user-photo">
+                        <span class="user-nav__user-name">Jmjusmin</span>
+                    </div>
+                </nav>
             </header>
+            <!-- ============== End Header =========== -->
+
             <div class="content">
                 <nav class="sidebar">
                     Navigation
